@@ -7,3 +7,6 @@ Based on ECHA [UFI Developers Manual](https://poisoncentres.echa.europa.eu/docum
 https://poisoncentres.echa.europa.eu/en/ufi-generator
 
 ![Diagram](diagram.png)
+
+
+safety data sheet and UFI management [SBLCore](https://www.sblcore.com)
