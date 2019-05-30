@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFIGenerator", "UFIGenerator\UFIGenerator.csproj", "{4BB562D6-2698-4A89-831F-B3AC242B0B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFITest", "UFITest\UFITest.csproj", "{FD277DA8-157E-4709-B505-07F2B20AEC2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB562D6-2698-4A89-831F-B3AC242B0B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB562D6-2698-4A89-831F-B3AC242B0B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB562D6-2698-4A89-831F-B3AC242B0B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB562D6-2698-4A89-831F-B3AC242B0B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD277DA8-157E-4709-B505-07F2B20AEC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD277DA8-157E-4709-B505-07F2B20AEC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD277DA8-157E-4709-B505-07F2B20AEC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD277DA8-157E-4709-B505-07F2B20AEC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A12C22E9-1390-44A2-9A9F-FBFFC40DC93A}
+	EndGlobalSection
+EndGlobal
