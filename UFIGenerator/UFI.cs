@@ -25,7 +25,7 @@ namespace UFIGenerator
             BitArray vatn = VatNumberBits(vatLong, countryCodeIso3166);
             BitArray formulationN = formulation.ToBinary(28);
             BitArray togetherStep1 = 0.ToBinary(1).Append(vatn).Append(country).Append(group).Append(formulationN);
-            //Console.WriteLine(TogetherStep1.ToDigitString());
+            //Console.WriteLine(togetherStep1.ToDigitString());
 
 
             //2.1.2 Step 2 – UFI payload in base-31
@@ -34,11 +34,11 @@ namespace UFIGenerator
 
             BigInteger payload = BigInteger.Parse(decimalPayloadString);
             string base31PayloadStep2 = BigIntegerToStringBaseX(payload, tableChars).PadLeft(15, '0');
-            //Console.WriteLine(Base31Payload);
+            //Console.WriteLine(base31PayloadStep2);
 
             //2.1.3 Step 3 – Character reorganisation
             string reorganisedStep3 = CharacterReorganisation(base31PayloadStep2);
-            //Console.WriteLine(ReorganisedStep3);
+            //Console.WriteLine(reorganisedStep3);
 
 
             //2.1.4 Step 4 – Checksum calculation
