@@ -9,4 +9,4 @@ https://poisoncentres.echa.europa.eu/en/ufi-generator
 ![Diagram](diagram.png)
 
 
-safety data sheet and UFI management [SBLCore](https://www.sblcore.com)
+Used in SBLCore - safety data sheet and UFI management software [SBLCore](https://www.sblcore.com)
